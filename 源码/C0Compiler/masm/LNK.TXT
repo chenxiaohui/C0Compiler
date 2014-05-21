@@ -1,0 +1,10 @@
+
+ Volume in drive H is IMAGE_WORLD
+ Volume Serial Number is 3D4A-19D6
+ Directory of H:\MASM32\EXAMPLES\LIBEXE
+
+LIB      ASM         2,362  05-04-99  7:04p LIB.ASM
+LIB      OBJ           966  05-04-99  2:25p lib.obj
+LIB      EXE         2,560  05-05-99  2:37a Lib.exe
+         3 file(s)          5,888 bytes
+         0 dir(s)      19,890,176 bytes free

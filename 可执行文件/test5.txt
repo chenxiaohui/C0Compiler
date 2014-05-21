@@ -1,0 +1,20 @@
+//测试同名问题
+int a,b;
+int test()
+{
+int a,b;
+scanf(a);
+scanf(b);
+printf(a);
+printf(b);
+}
+
+void main()
+{
+int a,b;
+scanf(a);
+scanf(b);
+printf(a);
+printf(b);
+test();
+}

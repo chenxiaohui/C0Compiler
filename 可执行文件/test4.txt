@@ -1,0 +1,14 @@
+//²âÊÔÔËËã
+int a,b;
+int add(int a,int b)
+{
+	return(a+b);
+}
+void main()
+{
+	printf("please input int a=:");
+	scanf(a);
+	printf("please input int b=:");
+	scanf(b);
+	printf("a+b= ",add(a,b));
+}

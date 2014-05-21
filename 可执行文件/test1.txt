@@ -1,0 +1,17 @@
+//测试函数调用，求N!
+int f(int a)
+{
+if(a==1)
+a=1;
+else
+a=a*f(a-1);
+return(a);
+}
+void main()
+{
+int i,a;
+printf("please input n =:\n");
+scanf(i);
+a=f(i);
+printf("n! = %d\n",a);
+}

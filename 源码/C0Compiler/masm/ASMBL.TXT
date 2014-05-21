@@ -1,0 +1,13 @@
+ Assembling: D:\MIRC\DOWNLOAD\BUNGEE3\TRAINER.asm
+
+ Volume in drive D is DRIVE_D    
+ Volume Serial Number is 11EB-3A74
+ Directory of D:\MIRC\DOWNLOAD\BUNGEE3
+
+TRAINER  ASM         3,287  06-03-00  1:50p Trainer.asm
+TRAINER  INC         1,799  06-03-00  1:50p Trainer.inc
+TRAINER  OBJ         2,269  06-03-00  1:51p TRAINER.obj
+TRAINER  EXE         5,632  06-03-00  1:51p TRAINER.exe
+TRAINER  ICO           766  02-05-00  1:09p TRAINER.ICO
+         5 file(s)         13,753 bytes
+         0 dir(s)        3,798.04 MB free

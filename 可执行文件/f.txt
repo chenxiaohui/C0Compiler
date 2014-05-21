@@ -1,0 +1,48 @@
+proc	_MOVE_1		
+out	_F		
+out	STR0		
+out	_T		
+end	_MOVE_1		
+proc	_MOVE_N		
+if	_M	==	1
+goto	LP0		
+goto	LP1		
+LP0	:		
+param	_A		
+param	_C		
+call	_MOVE_1	,	2
+receive	T0		
+goto	LP2		
+LP1	:		
+SUB	_M	1	T1
+param	T1		
+param	_A		
+param	_C		
+param	_B		
+call	_MOVE_N	,	4
+receive	T2		
+param	_A		
+param	_C		
+call	_MOVE_1	,	2
+receive	T3		
+SUB	_M	1	T4
+param	T4		
+param	_B		
+param	_A		
+param	_C		
+call	_MOVE_N	,	4
+receive	T5		
+LP2	:		
+end	_MOVE_N		
+proc	main		
+out	STR1		
+in	_N		
+out	STR2		
+out	_N		
+param	_N		
+param	1		
+param	2		
+param	3		
+call	_MOVE_N	,	4
+receive	T6		
+end	main		

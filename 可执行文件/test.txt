@@ -1,0 +1,19 @@
+const x = -3,y = -4;
+int g,m;
+
+int fun(int i , int j){
+    while( i < 0){
+        i = i + 1;
+        j = j - 1;
+    }    
+     return (j);
+}
+    
+    
+void main()
+{  
+	g = fun(x,y);
+        m = fun(y,x);
+	printf(g);
+	printf(m);
+}

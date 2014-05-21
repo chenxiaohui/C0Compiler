@@ -1,0 +1,17 @@
+//²âÊÔº¯Êıµ÷ÓÃ
+int f(int a)
+{
+a==1;
+a=1;
+else 
+a=a*f(a-1);
+return(a);
+}
+void main()
+{
+int i,a;
+printf("please input n =:");
+scanf(i);
+a=f(i);
+printf("n! = ",a);
+}
